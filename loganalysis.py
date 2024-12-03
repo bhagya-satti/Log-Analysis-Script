@@ -1,19 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[101]:
 
 
 log_file = 'sample.log'
 
 
-# In[102]:
+
 
 
 import csv
 
 
-# In[103]:
+
 
 
 with open(log_file, 'r') as file:
@@ -33,7 +32,7 @@ with open(log_file, 'r') as file:
     requests_per_ip = count_requests(file)
 
 
-# In[104]:
+
 
 
 with open(log_file, 'r') as file:
@@ -53,7 +52,7 @@ with open(log_file, 'r') as file:
     most_accessed_endpoints = endpoint_access_count(file)
 
 
-# In[105]:
+
 
 
 with open(log_file, 'r') as file:
@@ -87,7 +86,7 @@ with open(log_file, 'r') as file:
     
 
 
-# In[106]:
+
 
 
 # Saving the results to a CSV file
